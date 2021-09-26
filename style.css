@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 29, 46);
+    color: white;
+}
+
+.logo{
+    font-size: 35px;
+    margin-left:10px ;
+    font-family: kanit ;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header div a:hover {
+    color: white
+}
+
+header div a:nth-child(3){
+    margin-right: 30px;
+}
+
+.tela-principal{
+    background: url("https://www.themoviedb.org/t/p/original/qjGrUmKW78MCFG8PTLDBp67S27p.jpg");
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.titulo{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.descricao{
+    width: 50%;
+}
+
+.botao{
+    background-color: transparent;
+    color: white;
+    margin:20px 10px;
+    padding: 10px;
+    transition: .3s ease all ;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
