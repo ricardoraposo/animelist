@@ -5,11 +5,14 @@
 
     }
     header .logo{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     
     .tela-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
         background-position-x: center;
         height: 640px;
     }

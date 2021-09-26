@@ -39,7 +39,7 @@ header div a:nth-child(3){
 }
 
 .tela-principal{
-    background: linear-gradient(rgba(0,20,0,.60),rgba(00,0,0,.60)), url("https://www.themoviedb.org/t/p/original/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg");
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://www.themoviedb.org/t/p/original/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg");
     background-size: cover;
     min-height: 500px;
     background-position-y: 20%;
